@@ -165,7 +165,7 @@ where
             );
 
             self.checked += 1;
-            if self.checked % 10 == 0 {
+            if self.checked.is_multiple_of(10) {
                 self.fire_progress_cb()?;
             }
         }
@@ -208,7 +208,7 @@ where
             })?;
 
             self.checked += 1;
-            if self.checked % 10 == 0 {
+            if self.checked.is_multiple_of(10) {
                 self.fire_progress_cb()?;
             }
         }
@@ -227,7 +227,7 @@ where
             })?;
 
             self.checked += 1;
-            if self.checked % 10 == 0 {
+            if self.checked.is_multiple_of(10) {
                 self.fire_progress_cb()?;
             }
         }
