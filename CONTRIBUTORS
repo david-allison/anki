@@ -7,8 +7,9 @@ of the code are also used in AnkiWeb and AnkiMobile, and accepting
 contributions under an AGPL license would mean we could no longer use the code
 we have written in those projects.
 
-In your first pull request, please add your name below. By adding your name to
-this file, you assert that any code you contribute to the Anki project is
+In your first pull request, please add your name to the appropriate list below.
+Except for the licensing exception below, adding your name to the BSD-licensed
+contributors list asserts that any code you contribute to the Anki project is
 licensed under the BSD 3 clause license. If any pull request you make contains
 code that you don't own the copyright to, you agree to make that clear when
 submitting the request.
@@ -23,8 +24,29 @@ editor, making a trivial edit like adding a space after your name, and then pull
 requests will work regardless of whether you create them using your computer or
 GitHub's online interface.
 
-For users who previously confirmed the license of their contributions on the
-support site, it would be great if you could add your name below as well.
+For users who previously confirmed the BSD license of their contributions on
+the support site, it would be great if you could add your name to the
+BSD-licensed contributors list below as well.
+
+AGPL-only contributors
+----------------------
+
+To contribute without an additional BSD-3-Clause license grant, add your name
+to the list in this section.
+
+From the commit that first adds a contributor's name to this list onward,
+their code contributions are licensed solely under the GNU Affero General
+Public License, version 3 or later (AGPL-3.0-or-later), without an additional
+BSD-3-Clause license grant.
+
+This exception does not withdraw BSD licenses already granted for previously
+published contributions.
+
+David Allison <davidallisongithub@gmail.com>
+David Allison <62114487+david-allison@users.noreply.github.com>
+
+BSD-licensed contributors
+-------------------------
 
 ********************
 
@@ -309,7 +331,9 @@ Michael McDonald <https://github.com/praxish>
 wofiporia <1029687661@qq.com>
 ********************
 
-The text of the 3 clause BSD license follows:
+The text of the 3 clause BSD license follows. It applies only to the
+contributions covered by the BSD grants described above; it does not apply
+to code contributions covered by the AGPL-only exception above.
 
 Contributions copyright the above contributors, 2010-Present.
 
